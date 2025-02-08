@@ -78,5 +78,5 @@
 ## docker 
 ```shell
 sudo docker build -t aliyunddns .
-sudo docker run -it --name aliyunddns --restart always aliyunddns:latest
+sudo docker run -it -d --name aliyunddns --restart always aliyunddns:latest
 ```
