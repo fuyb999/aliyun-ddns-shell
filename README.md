@@ -74,3 +74,9 @@
 ![配置页面](https://raw.githubusercontent.com/risfeng/aliyun-ddns-shell/master/src/aliyun/screenshot/ss2.jpg)
 ![运行页面](https://raw.githubusercontent.com/risfeng/aliyun-ddns-shell/master/src/aliyun/screenshot/ss3.jpg)
 ## 欢迎star给予支持
+
+## docker 
+```shell
+sudo docker build -t aliyunddns .
+sudo docker run -it --name aliyunddns --restart always aliyunddns:latest
+```

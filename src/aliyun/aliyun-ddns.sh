@@ -58,7 +58,7 @@ UBUNTU_OS_RELEASE="ubuntu"
 DEBIAN_OS_RELEASE="debian"
 
 # 配置、日志文件存放目录
-FILE_SAVE_DIR=""
+FILE_SAVE_DIR="$(pwd)/aliyun-ddns"
 # 目录前缀
 FILE_DIR_PREFIX="aliyun-ddns"
 #配置文件路径
