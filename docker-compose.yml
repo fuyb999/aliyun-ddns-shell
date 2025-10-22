@@ -1,6 +1,7 @@
 
 services:
   aliyunddns:
+    build: ./
     image: aliyunddns:latest
     container_name: aliyunddns
     restart: unless-stopped
